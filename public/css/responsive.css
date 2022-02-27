@@ -1,0 +1,36 @@
+@media (max-width: 374.98px) {
+    .section-marginmd{margin-bottom: 20px;margin-top: 20px;}
+    .wrapper-padding{ padding: 20% 4% 4% 4% !important;}
+}
+
+
+@media (min-width: 375.98px) and (max-width: 575.98px){
+    .wrapper-padding{ padding: 15% 4% 4% 4% !important;}
+    .section-marginmd{margin-bottom: 20px;margin-top: 20px;}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-marginmd{margin-bottom: 30px;margin-top: 30px;}
+    .wrapper-padding{ padding: 15% 4% 4% 4% !important;}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+
+}
+
+
