@@ -1,12 +1,17 @@
 import React, {Component, Fragment} from 'react';
-import {Button, Col, Row} from "react-bootstrap";
 import NavBar from "./components/NavBar";
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./routes/AppRoute";
 
 class App extends Component {
     render() {
         return (
             <>
-             <NavBar/>
+                <BrowserRouter>
+                    <NavBar/>
+                    <AppRoute/>
+                </BrowserRouter>
+
             </>
         );
     }

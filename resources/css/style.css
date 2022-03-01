@@ -42,7 +42,7 @@ body{
 .nav-font{
     color: #151446!important;
     font-family: Montserrat;
-    font-weight: 400;
+    /*font-weight: 400;*/
 }
 
 .nav-font:hover{

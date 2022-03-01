@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\HomeController;
+
+Route::controller(HomeController::class)->group(function () {
+        Route::get('/getCourseFeatures', 'getCourseFeatures');
+        Route::get('/getCoursePlan', 'getCoursePlan');
+        Route::get('/getPaymentGuide', 'getPaymentGuide');
+        Route::get('/getMoreSeries', 'getMoreSeries');
+
+});
+
+
+
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('{ReactRoutePath}', function () {
+    return view('index');
+})->where('ReactRoutePath','.*');
